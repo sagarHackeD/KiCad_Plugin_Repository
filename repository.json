@@ -3,7 +3,7 @@
     "packages": {
         "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/packages.json",
         "sha256": "ae526c9f484b59157729e5e677873c14b6e3b3031ce10bad528bbb714f9ecba3",
-        "update_timestamp": 1771699102,
-        "update_time_utc": "2026-02-22 00:08:22"
+        "update_timestamp": 1771699255,
+        "update_time_utc": "2026-02-22 00:10:55"
     }
 }

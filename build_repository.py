@@ -71,8 +71,8 @@ if __name__ == "__main__":
     )
 
     try:
-        if os.path.exists("build/resources.zip"):
-            update(repo["resources"], "build/resources.zip")
+        if os.path.exists("resources.zip"):
+            update(repo["resources"], "resources.zip")
         else:
             del repo["resources"]
     except KeyError:

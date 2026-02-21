@@ -72,6 +72,8 @@ if __name__ == "__main__":
 
     try:
         if os.path.exists("resources.zip"):
+            if"resources" not in repo:
+                repo["resources"] = {}
             update(repo["resources"], "resources.zip")
         else:
             del repo["resources"]

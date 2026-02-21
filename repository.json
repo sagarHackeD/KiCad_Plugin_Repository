@@ -1,15 +1,9 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
-  "name": "sagarHackeD KiCad Plugin Repo",
-  "maintainer": {
-    "name": "sagarHackeD",
-    "contact": {
-      "web": "https://github.com/sagarHackeD"
+    "name": "sagarHackeD KiCad Plugin Repository",
+    "packages": {
+        "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/packages.json",
+        "sha256": "ae526c9f484b59157729e5e677873c14b6e3b3031ce10bad528bbb714f9ecba3",
+        "update_timestamp": 1771697023,
+        "update_time_utc": "2026-02-21 23:33:43"
     }
-  },
-  "packages": {
-    "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/main/packages.json",
-    "sha256": "aec4d2671778cafb9bc2955a6e9327e5aaf04ee967feffd2a71ce420188d6aae",
-    "update_timestamp": 1768906944
-  }
 }

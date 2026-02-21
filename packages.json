@@ -1,5 +1,5 @@
 {
-  "$schema": "https://go.kicad.org/pcm/schemas/v1/packages.schema.json",
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
   "packages": [
     {
       "name": "Place By Schematic",

@@ -8,7 +8,7 @@
     }
   },
   "packages": {
-    "url": "https://raw.githubusercontent.com/sagarHackeD/kicad-plugin-repo/main/packages.json",
+    "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/main/packages.json",
     "sha256": "PUT_SHA256_OF_PACKAGES_JSON",
     "update_timestamp": 1768906944
   }

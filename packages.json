@@ -5,6 +5,7 @@
       "name": "Place By Schematic",
       "identifier": "com.sagarHackeD.placebysch",
       "type": "plugin",
+      "description": "A KiCad plugin to place components in PCB layout based on their positions in the schematic.",
       "versions": [
         {
           "version": "2.1.0",
@@ -21,6 +22,7 @@
       "name": "Snap To Grid",
       "identifier": "com.sagarHackeD.snaptogrid",
       "type": "plugin",
+      "description": "A KiCad plugin to snap selected objects to the grid.",
       "versions": [
         {
           "version": "2.0.0",

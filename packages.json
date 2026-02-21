@@ -7,10 +7,10 @@
       "type": "plugin",
       "versions": [
         {
-          "version": "1.0.0",
+          "version": "2.1.0",
           "status": "stable",
-          "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/Place_By_Sch_KiCad.zip",
-          "download_sha256": "PUT_SHA256_HERE",
+          "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.1.0/Place_By_Sch_KiCad.zip",
+          "download_sha256": "00835e594664e5acab9e2bc8350349e66c91c843f574911e69a8d62a12feadee",
           "download_size": 10240,
           "install_size": 20480,
           "kicad_version": "6.0"
@@ -23,10 +23,10 @@
       "type": "plugin",
       "versions": [
         {
-          "version": "1.0.0",
+          "version": "2.0.0",
           "status": "stable",
-          "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/Snap_To_Grid_KiCAD.zip",
-          "download_sha256": "PUT_SHA256_HERE",
+          "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v2.0.0/Snap_To_Grid_KiCAD.zip",
+          "download_sha256": "ec9fd4af6a906d0d5c0aafd98d6440715eefbd907a7965811a27a991b0128206",
           "download_size": 10240,
           "install_size": 20480,
           "kicad_version": "6.0"

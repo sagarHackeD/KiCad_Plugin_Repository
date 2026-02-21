@@ -5,6 +5,7 @@ from datetime import datetime
 import zipfile
 
 READ_SIZE = 65536
+raw_github_link = "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/"
 
 
 def getsha256(filename) -> str:
@@ -20,15 +21,13 @@ def load_json_file(file_name: str) -> dict:
         return json.load(f)
 
 
-def update(json_, file):
+def update_json(json_, file):
     mtime = os.path.getmtime(file)
     dt = datetime.fromtimestamp(mtime)
     sha = getsha256(file)
 
-    print(f"Updating {file} with sha256 {sha} and timestamp {dt} and mtime {mtime}")
-
     json_["url"] = (
-        f"https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/{os.path.basename(file)}"
+        f"{raw_github_link}{os.path.basename(file)}"
     )
     json_["sha256"] = sha
     json_["update_timestamp"] = int(mtime)
@@ -53,14 +52,12 @@ if __name__ == "__main__":
         print(f"Processing package {file}")
         packages.append(load_json_file(os.path.join("packages", file, "metadata.json")))
 
-    print(f"{len(packages)} packages processed")
-
     with open("packages.json", "w", encoding="utf-8") as f:
         json.dump({"packages": packages}, f, indent=4)
 
     repo = load_json_file("repository.json")
     repo["name"] = "sagarHackeD KiCad Plugin Repository"
-    update(repo["packages"], "packages.json")
+    update_json(repo["packages"], "packages.json")
 
     create_resources_zip(
         [
@@ -74,7 +71,7 @@ if __name__ == "__main__":
         if os.path.exists("resources.zip"):
             if"resources" not in repo:
                 repo["resources"] = {}
-            update(repo["resources"], "resources.zip")
+            update_json(repo["resources"], "resources.zip")
         else:
             del repo["resources"]
     except KeyError:

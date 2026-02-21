@@ -1,0 +1,15 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1/repository.schema.json",
+  "name": "sagarHackeD KiCad Plugin Repo",
+  "maintainer": {
+    "name": "sagarHackeD",
+    "contact": {
+      "web": "https://github.com/sagarHackeD"
+    }
+  },
+  "packages": {
+    "url": "https://raw.githubusercontent.com/sagarHackeD/kicad-plugin-repo/main/packages.json",
+    "sha256": "PUT_SHA256_OF_PACKAGES_JSON",
+    "update_timestamp": 1768906944
+  }
+}

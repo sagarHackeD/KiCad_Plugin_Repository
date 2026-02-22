@@ -63,7 +63,6 @@
                     "github": "https://github.com/sagarHackeD"
                 }
             },
-            "category": "general",
             "license": "GPL-3.0",
             "resources": {
                 "homepage": "https://github.com/sagarHackeD/Place_By_Sch_KiCad"
@@ -77,21 +76,15 @@
                 "pcb",
                 "layout"
             ],
-            "Repository": {
-                "type": "git",
-                "url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad.git",
-                "name": "Place_By_Sch_KiCad",
-                "owner": "sagarHackeD"
-            },
             "versions": [
                 {
-                    "version": "2.1.0",
+                    "version": "1.0.0",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "00835e594664e5acab9e2bc8350349e66c91c843f574911e69a8d62a12feadee",
-                    "download_size": 17674,
-                    "install_size": 41386,
-                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.1.0/kicad-package.zip"
+                    "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
+                    "download_size": 13119,
+                    "install_size": 22092,
+                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
                 },
                 {
                     "version": "2.0.0",
@@ -101,15 +94,6 @@
                     "download_size": 15083,
                     "install_size": 31745,
                     "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.0.0/kicad-package.zip"
-                },
-                {
-                    "version": "1.0.0",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
-                    "download_size": 13119,
-                    "install_size": 22092,
-                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
                 }
             ]
         },
@@ -147,6 +131,15 @@
                 "grid"
             ],
             "versions": [
+                {
+                    "version": "3.0.0",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "9a4d8e66c24bc390a22310e23652f7dbc4e0968fc6674ded3ca722f44a68b7f3",
+                    "download_size": 10188,
+                    "install_size": 12576,
+                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v3.0.0/kicad-package.zip"
+                },
                 {
                     "version": "2.0.0",
                     "status": "stable",

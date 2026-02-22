@@ -2,14 +2,14 @@
     "name": "sagarHackeD KiCad Plugin Repository",
     "packages": {
         "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/packages.json",
-        "sha256": "2e938fa9235dafb5fb760c6350f74a35c79bd28fdf26647c00edb890ab906139",
-        "update_timestamp": 1771747491,
-        "update_time_utc": "2026-02-22 13:34:51"
+        "sha256": "0e44d83875d4c7cbf0ca2fbd5082bd8ea4331b6244e9d0c044423d58b61bd85b",
+        "update_timestamp": 1771757175,
+        "update_time_utc": "2026-02-22 16:16:15"
     },
     "resources": {
         "url": "https://raw.githubusercontent.com/sagarHackeD/KiCad_Plugin_Repository/refs/heads/main/resources.zip",
-        "sha256": "73d4c7b16c8b41cfa0dca32176e431be74a74086bd7d3c4ce2a86aa904fcdba4",
-        "update_timestamp": 1771747491,
-        "update_time_utc": "2026-02-22 13:34:51"
+        "sha256": "40c2a7772f9c0aaad4654236e74c4c93aef8b12a4158a17f883a727ee870f43f",
+        "update_timestamp": 1771757175,
+        "update_time_utc": "2026-02-22 16:16:15"
     }
 }

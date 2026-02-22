@@ -17,6 +17,11 @@
             "github": "https://github.com/sagarHackeD"
         }
     },
+    "Repository": {
+        "owner": "sagarHackeD",
+        "url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD",
+        "name": "Snap_To_Grid_KiCAD"
+    },
     "license": "GPL-3.0",
     "resources": {
         "homepage": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD"
@@ -28,13 +33,13 @@
     ],
     "versions": [
         {
-            "version": "1.0.0",
+            "version": "2.0.0",
             "status": "stable",
             "kicad_version": "6.0",
-            "download_sha256": "fdb60cdda0c448c43811bc34354a7e7b0d0fe36c3f92af974e4ebe2dd353f783",
-            "download_size": 8897,
-            "install_size": 10130,
-            "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/kicad-package.zip"
+            "download_sha256": "ec9fd4af6a906d0d5c0aafd98d6440715eefbd907a7965811a27a991b0128206",
+            "download_size": 9212,
+            "install_size": 10028,
+            "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v2.0.0/kicad-package.zip"
         },
         {
             "version": "1.0.1",
@@ -44,6 +49,15 @@
             "download_size": 9592,
             "install_size": 11223,
             "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.1/kicad-package.zip"
+        },
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "fdb60cdda0c448c43811bc34354a7e7b0d0fe36c3f92af974e4ebe2dd353f783",
+            "download_size": 8897,
+            "install_size": 10130,
+            "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/kicad-package.zip"
         }
     ]
 }

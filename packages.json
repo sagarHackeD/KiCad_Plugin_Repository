@@ -2,6 +2,50 @@
     "packages": [
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Template",
+            "description": "A template for KiCad Action Plugins",
+            "description_full": "This is a template for building KiCad Action Plugins. It provides a basic structure and example code to help you get started with developing your own plugins for KiCad.",
+            "identifier": "com.github.sagarHackeD.KiCadActionPluginTemplate",
+            "type": "plugin",
+            "author": {
+                "name": "Sagar Naik",
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                }
+            },
+            "maintainer": {
+                "name": "Sagar Naik",
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                }
+            },
+            "license": "GPL-3.0",
+            "resources": {
+                "homepage": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template"
+            },
+            "Repository": {
+                "url": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template.git",
+                "name": "KiCad_Action_Plugin_Template",
+                "owner": "sagarHackeD"
+            },
+            "tags": [
+                "template",
+                "actionplugin"
+            ],
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "f7425b9504e8670444fb9d64c8223730cd3732874b00b7b139f08fcfceb132a4",
+                    "download_size": 7931,
+                    "install_size": 8357,
+                    "download_url": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template/releases/download/v0.1.0/kicad-package.zip"
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Place By Sch",
             "description": "Plugin to place footprints in PCB from schematic positions.",
             "description_full": "Place By Sch is a KiCad plugin that allows users to place footprints in the PCB layout based on their positions in the schematic. This tool helps streamline the PCB design process by ensuring that components are positioned logically and efficiently according to the schematic layout. It is particularly useful for complex designs where manual placement can be time-consuming and error-prone.",
@@ -19,6 +63,7 @@
                     "github": "https://github.com/sagarHackeD"
                 }
             },
+            "category": "general",
             "license": "GPL-3.0",
             "resources": {
                 "homepage": "https://github.com/sagarHackeD/Place_By_Sch_KiCad"
@@ -32,15 +77,21 @@
                 "pcb",
                 "layout"
             ],
+            "Repository": {
+                "type": "git",
+                "url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad.git",
+                "name": "Place_By_Sch_KiCad",
+                "owner": "sagarHackeD"
+            },
             "versions": [
                 {
-                    "version": "1.0.0",
+                    "version": "2.1.0",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
-                    "download_size": 13119,
-                    "install_size": 22092,
-                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
+                    "download_sha256": "00835e594664e5acab9e2bc8350349e66c91c843f574911e69a8d62a12feadee",
+                    "download_size": 17674,
+                    "install_size": 41386,
+                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.1.0/kicad-package.zip"
                 },
                 {
                     "version": "2.0.0",
@@ -50,6 +101,15 @@
                     "download_size": 15083,
                     "install_size": 31745,
                     "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.0.0/kicad-package.zip"
+                },
+                {
+                    "version": "1.0.0",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
+                    "download_size": 13119,
+                    "install_size": 22092,
+                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
                 }
             ]
         },
@@ -72,6 +132,11 @@
                     "github": "https://github.com/sagarHackeD"
                 }
             },
+            "Repository": {
+                "owner": "sagarHackeD",
+                "url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD",
+                "name": "Snap_To_Grid_KiCAD"
+            },
             "license": "GPL-3.0",
             "resources": {
                 "homepage": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD"
@@ -83,13 +148,13 @@
             ],
             "versions": [
                 {
-                    "version": "1.0.0",
+                    "version": "2.0.0",
                     "status": "stable",
                     "kicad_version": "6.0",
-                    "download_sha256": "fdb60cdda0c448c43811bc34354a7e7b0d0fe36c3f92af974e4ebe2dd353f783",
-                    "download_size": 8897,
-                    "install_size": 10130,
-                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/kicad-package.zip"
+                    "download_sha256": "ec9fd4af6a906d0d5c0aafd98d6440715eefbd907a7965811a27a991b0128206",
+                    "download_size": 9212,
+                    "install_size": 10028,
+                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v2.0.0/kicad-package.zip"
                 },
                 {
                     "version": "1.0.1",
@@ -99,6 +164,15 @@
                     "download_size": 9592,
                     "install_size": 11223,
                     "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.1/kicad-package.zip"
+                },
+                {
+                    "version": "1.0.0",
+                    "status": "stable",
+                    "kicad_version": "6.0",
+                    "download_sha256": "fdb60cdda0c448c43811bc34354a7e7b0d0fe36c3f92af974e4ebe2dd353f783",
+                    "download_size": 8897,
+                    "install_size": 10130,
+                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/kicad-package.zip"
                 }
             ]
         }

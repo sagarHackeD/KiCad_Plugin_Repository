@@ -1,0 +1,44 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Template",
+    "description": "A template for KiCad Action Plugins",
+    "description_full": "This is a template for building KiCad Action Plugins. It provides a basic structure and example code to help you get started with developing your own plugins for KiCad.",
+    "identifier": "com.github.sagarHackeD.KiCadActionPluginTemplate",
+    "type": "plugin",
+    "author": {
+        "name": "Sagar Naik",
+        "contact": {
+            "github": "https://github.com/sagarHackeD"
+        }
+    },
+    "maintainer": {
+        "name": "Sagar Naik",
+        "contact": {
+            "github": "https://github.com/sagarHackeD"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template"
+    },
+    "Repository": {
+        "url": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template.git",
+        "name": "KiCad_Action_Plugin_Template",
+        "owner": "sagarHackeD"
+    },
+    "tags": [
+        "template",
+        "actionplugin"
+    ],
+    "versions": [
+        {
+            "version": "0.1.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "f7425b9504e8670444fb9d64c8223730cd3732874b00b7b139f08fcfceb132a4",
+            "download_size": 7931,
+            "install_size": 8357,
+            "download_url": "https://github.com/sagarHackeD/KiCad_Action_Plugin_Template/releases/download/v0.1.0/kicad-package.zip"
+        }
+    ]
+}

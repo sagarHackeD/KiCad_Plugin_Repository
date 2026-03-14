@@ -17,7 +17,7 @@ To get started with using the plugins from this repository, follow these steps:
 Contributions are welcome! If you have a plugin to share or improvements for existing ones, please fork the repository and submit a pull request.
 
 ## License
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This repository is licensed under the GPL3 License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 For questions or feedback, feel free to reach out to the repository owner at [sagarHackeD](https://github.com/sagarHackeD).

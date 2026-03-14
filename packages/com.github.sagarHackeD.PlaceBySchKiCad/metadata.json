@@ -17,6 +17,7 @@
             "github": "https://github.com/sagarHackeD"
         }
     },
+    "category": "general",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "https://github.com/sagarHackeD/Place_By_Sch_KiCad"
@@ -30,15 +31,32 @@
         "pcb",
         "layout"
     ],
+    "Repository": {
+        "type": "git",
+        "url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad.git",
+        "name": "Place_By_Sch_KiCad",
+        "owner": "sagarHackeD"
+    },
     "versions": [
         {
-            "version": "1.0.0",
+            "version": "2.2.0",
             "status": "stable",
             "kicad_version": "6.0",
-            "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
-            "download_size": 13119,
-            "install_size": 22092,
-            "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
+            "runtime": "swig",
+            "download_sha256": "b82117065523043ccc931d70ddf57fe3d11f108fadcee894e7873a78c426d86d",
+            "download_size": 17873,
+            "install_size": 42124,
+            "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.2.0/kicad-package.zip"
+        },
+        {
+            "version": "2.1.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "runtime": "swig",
+            "download_sha256": "4a62ceeab6a1a9f3eef80774a1288728641e2b1f2c1f560410e1aa9f9c48619e",
+            "download_size": 17734,
+            "install_size": 41643,
+            "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.1.0/kicad-package.zip"
         },
         {
             "version": "2.0.0",
@@ -48,6 +66,15 @@
             "download_size": 15083,
             "install_size": 31745,
             "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v2.0.0/kicad-package.zip"
+        },
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
+            "download_size": 13119,
+            "install_size": 22092,
+            "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip"
         }
     ]
 }
